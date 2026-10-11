@@ -1,6 +1,17 @@
 # LaViPoP
 LaViPoP (Language-aware Video Post-Processing) is an open-source Python tool for automated multilingual video production. It supports automatic language icons, animated watermarks, batch processing, customizable backgrounds, and portrait/landscape exports using FFmpeg and Dash.
 
+### Community Edition | Open Source
+
+LaViPoP is an open-source video post-processing and automation tool developed by TopLab – Toplak Laboratory.
+
+The Community Edition provides the foundation for automated video processing, branding, and multi-format output.
+
+### Commercial & Enterprise Solutions
+
+TopLab offers professional services, customized extensions, workflow automation, system integration, and enterprise-specific video processing solutions based on LaViPoP.
+
+From open-source software to tailored enterprise video automation.
 
 ### Disclaimer
 

@@ -2445,6 +2445,6 @@ def download_completed_results(job_id):
 if __name__ == "__main__":
     app.run(
         debug=False, # True,
-        host="127.0.0.1",  #"0.0.0.0",  #
-        port=8051
+        host="0.0.0.0",  # "127.0.0.1",
+        port=8050
     )

@@ -1,0 +1,18 @@
+
+services:
+  lavipop:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: toplab/lavipop:latest
+    container_name: lavipop
+
+    restart: unless-stopped
+
+    ports:
+      - "127.0.0.1:8050:8050"
+
+    volumes:
+      - ./lavipop/vidpop_uploads:/app/lavipop/vidpop_uploads
+      - ./lavipop/vidpop_cache:/app/lavipop/vidpop_cache
